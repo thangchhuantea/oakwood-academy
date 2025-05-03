@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oakwood Academy - Bloomington, IN</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }
+    header, footer { background-color: #003366; color: white; padding: 1em 2em; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .container { padding: 2em; max-width: 1000px; margin: auto; background-color: white; }
+    h1, h2 { color: #003366; }
+    .staff { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1em; }
+    .staff-member { border: 1px solid #ccc; padding: 1em; border-radius: 8px; background-color: #fafafa; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Oakwood Academy</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#academics">Academics</a>
+      <a href="#admissions">Admissions</a>
+      <a href="#staff">Staff</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home">
+      <h2>Welcome to Oakwood Academy</h2>
+      <p>Located in Bloomington, Indiana, Oakwood Academy provides a high-quality, student-centered education in a nurturing environment. Our goal is to develop confident, lifelong learners prepared to thrive in a diverse and changing world.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Founded in 1995, Oakwood Academy serves grades K-12 and is dedicated to academic excellence, character development, and community engagement. We are proud to be a pillar of the Bloomington educational community.</p>
+    </section>
+
+    <section id="academics">
+      <h2>Academics</h2>
+      <ul>
+        <li><strong>Elementary School (K-5):</strong> Core focus on literacy, numeracy, science, and social skills.</li>
+        <li><strong>Middle School (6-8):</strong> Critical thinking, STEM, and personal development.</li>
+        <li><strong>High School (9-12):</strong> College prep, AP courses, and career pathways.</li>
+      </ul>
+    </section>
+
+    <section id="admissions">
+      <h2>Admissions</h2>
+      <p>Enrollment for the 2025–2026 academic year is now open. Interested families can apply online or schedule a school tour. Requirements include transcripts, an interview, and teacher recommendations.</p>
+    </section>
+
+    <section id="staff">
+      <h2>Meet Our Staff</h2>
+      <div class="staff">
+        <div class="staff-member">
+          <strong>Dr. Lisa Morgan</strong><br />
+          Principal<br />
+          <em>lisa.morgan@oakwood.edu</em>
+        </div>
+        <div class="staff-member">
+          <strong>Mr. Thomas Greene</strong><br />
+          Science Teacher<br />
+          <em>t.greene@oakwood.edu</em>
+        </div>
+        <div class="staff-member">
+          <strong>Ms. Amanda Diaz</strong><br />
+          Counselor<br />
+          <em>a.diaz@oakwood.edu</em>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Address: 1234 School Lane, Bloomington, IN 47401</p>
+      <p>Email: info@oakwood.edu | Phone: (812) 555-1234</p>
+      <p><strong>Office Hours:</strong> Mon - Fri, 8:00 AM to 4:00 PM</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Oakwood Academy. All rights reserved.</p>
+  </footer>
+</body>
+</html>
